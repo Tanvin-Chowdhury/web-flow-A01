@@ -183,3 +183,15 @@ main{
     height: 120px;
 }
 
+
+.review-container{
+    margin-top: 137px;
+    
+}
+
+.review-container h3{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+}
