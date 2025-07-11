@@ -225,6 +225,7 @@ main{
 .reviewer-info img{
     width: 40px;
     height: 40px;
+    border-radius: 15px;
 }
 
 .reviewer-info{
@@ -287,4 +288,63 @@ main{
 .focus-container button{
     width: 195px;
     font-weight: 400;
+}
+
+/* last section */
+
+.last{
+    margin-top: 92px;
+}
+
+.last-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    margin: 0 auto;
+}
+
+.last-container h3{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+
+.last-container input[type="text"], .last-container input[type="email"] {
+    width: 497px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    padding: 20px 32px;
+    font-size: 20px;   
+    margin-bottom: 19px;
+    border: 1px solid #D6DDED ;
+}
+
+.last-container textarea{
+    width: 497px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    padding: 20px 32px;
+    margin-bottom: 19px;
+    font-size: 20px;  
+    border: 1px solid #D6DDED ;
+}
+
+.last-container form{
+     font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+.last-container label{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px; /* controls space BELOW label */
+    display: block; 
+}
+
+.form-button{
+    width: 100%;
+    height: 62px;
 }
