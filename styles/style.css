@@ -278,16 +278,17 @@ main{
      margin-bottom: 20px;
 }
 
+.focus-container button{
+    width: 195px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
 .focus img{
     width: 840px;
     height: 365px;
     border-radius: 48px;
-    margin-bottom: 30px;
-}
-
-.focus-container button{
-    width: 195px;
-    font-weight: 400;
+    margin-bottom: 40px;
 }
 
 /* last section */
