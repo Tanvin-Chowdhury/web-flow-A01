@@ -39,6 +39,7 @@ body{
     height: 51px;
     font-weight: 900;
     color: #4E47FF;
+    cursor: pointer;
 }
 
 .span-tag{
@@ -69,6 +70,10 @@ nav ul a{
     font-size: 20px;
 }
 
+.nav-btn{
+    cursor: pointer;
+}
+
 .nav-title{
     font-size: 65px;
     font-weight: 900;
@@ -76,6 +81,10 @@ nav ul a{
 
 .banner{
     margin: 158px 267px 158px 267px;
+}
+
+.banner-btn{
+    cursor: pointer;
 }
 
 /* main style */
@@ -117,6 +126,10 @@ main{
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+.action-btn{
+    cursor: pointer;
 }
 
 /* joined-users style*/
@@ -282,6 +295,7 @@ main{
     width: 195px;
     font-weight: 400;
     margin-bottom: 0px;
+    cursor: pointer;
 }
 
 .focus img{
@@ -350,6 +364,7 @@ main{
 .form-button{
     width: 100%;
     height: 62px;
+    cursor: pointer;
 }
 
 /* footer style */
@@ -369,6 +384,7 @@ footer{
 }
 
 footer h3{
+    cursor: pointer;
     color: #4E47FF;
     font-size: 100px;
     font-weight: bolder;
@@ -398,4 +414,43 @@ footer p{
     text-decoration: none;
     font-size: 20px;
     color: #8987A1;
+}
+
+
+
+/* hover effect */
+
+.nav-btn:hover{
+    background-color: #a09beb;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.form-button:hover{
+    background-color: #a09beb;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.action-btn:hover{
+    background-color: #a09beb;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.focus-container button:hover{
+    background-color: #a09beb;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+.banner-btn:hover{
+    background-color: #a09beb;
+    color: black;
+    transition: 0.5s;
+    transform: scale(1.1);
 }
